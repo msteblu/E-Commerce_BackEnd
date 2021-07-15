@@ -4,9 +4,9 @@
 
 [![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/) [![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)](https://expressjs.com/)
 
-This is a command-line application that provides a solution for easily managing a company's employees using node, the Inquirer package, and MySQL. It allows employers to view and manage different aspects of the departments, roles, and employees in their company. 
+This application provides the back end so that an e-commerce website and company can easily manage their products and have the technology to compete with other companies. It uses an Express.js API and the Sequelize package to interact with a MySQL database. 
 
-It allows users to add, delete, and view employees, roles, and departments - as well as updating roles and managers - or viewing departments' budgets.
+It allows users to create and seed a database and to use API routes to update that database. For categories, products, or tags in the database, use API GET, POST, PUT, or DELETE routes to display, create, update, or delete data in the database.
     
 ## Table of Contents
  - [Installation](#installation)
@@ -22,7 +22,7 @@ The server is started through the command-line, and then the application can be 
 
 To use this application, clone and download the files from this repository. Run 'npm install' to install the packages included in the package.json (required packages are MySQL2, Sequelize, dotenv, and Express.js).
 
-The schema.sql file can be used to create a MySQL database. A .env file must be created that includes the username, password, and new database name. Run 'npm run seed' in the command-line to populate the database tables (from the seeds.js files). The server can then be started in the command-line by running npm start. 
+The schema.sql file can be used to create a MySQL database. A .env file must be created that includes the username, password, and new database name. Run 'npm run seed' in the command-line to populate the database tables (from the seeds.js files). The server can then be started in the command-line by running 'npm start'. 
     
 ## Usage
 
