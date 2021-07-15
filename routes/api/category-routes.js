@@ -47,7 +47,6 @@ router.post('/', async (req, res) => {
 
 router.put('/:id', (req, res) => {
   // update a category by its `id` value
-    // Calls the update method on the Book model
     Category.update(
       {
         // All the fields you can update and the data attached to the request body.
